@@ -1,6 +1,14 @@
 # Just install mysql connector to ur command: pip install mysql-connector-python
 # Reference : https://www.youtube.com/watch?v=3kwVOPIK3Ps&t=7s 
 #  author: Code&Query, title: "How to Connect Python with MySQL | Step by Step Tutorial | 2025"
+# Team members
+# Kgothatso Dlamini 4326970
+# JAPHTA THABO Kubeka 4323640
+# Ditebogo Bokhutho Motshabi 4366345
+# Thilitshi Mudzungwane 4335400
+# Genuwine Phungo 4334893
+# Uhone Mukondeleli 4366051
+
 
 import mysql.connector
 # I just initialised the function to connect to the database
@@ -10,7 +18,7 @@ def connect_to_mysql():
         connection = mysql.connector.connect(
             host = '127.0.0.1', # localhost for the mysql workbench
             user = 'root', # the username for the database workbench    
-            password = 'kiddo_4326970_2025', # the password for the database workbench
+            password = '****', # the password for the database workbench
             database = 'capetown_waste_management' # the database name
         )
         # Here i just check the connection is successful or not using the is_connected() method
@@ -91,4 +99,5 @@ if __name__== '__main__':
 #     try:
 
     
+
    
