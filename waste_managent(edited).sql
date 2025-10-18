@@ -1,5 +1,5 @@
 -- Here we will use the capetown_waste_management as our database name
-USE  capetown_waste_management;
+#USE  capetown_waste_management;
 
 -- Table for waste type 
 CREATE TABLE Waste_Type (
